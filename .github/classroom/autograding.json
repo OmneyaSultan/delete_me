@@ -1,0 +1,37 @@
+{
+  "tests": [
+    {
+      "name": "President Terms",
+      "setup": "pip install pandas",
+      "run": "python grader.py get_president_terms",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Approval Changes",
+      "setup": "pip install pandas",
+      "run": "python grader.py calculate_approval_changes",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Count Presidents",
+      "setup": "pip install pandas",
+      "run": "python grader.py generate_president_dataframe",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    }
+
+    
+    
+  ]
+}
